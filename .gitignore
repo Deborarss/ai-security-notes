@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Segredos e configs locais
+.env
+*.key
+
+# Modelos e dados grandes (baixar de novo quando precisar)
+*.pt
+*.pth
+*.pkl
+*.safetensors
+*.bin
+*.gguf
+
+# Sistema
+.DS_Store
+Thumbs.db
